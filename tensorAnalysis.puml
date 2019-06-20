@@ -1,0 +1,29 @@
+@startuml
+
+start
+title 张量分析
+
+
+ split
+ :张映射;
+ split again
+ #HotPink:线性空间;
+ end split
+ :带有张映射的线性空间V*...*V = Pm
+ 	         称为m阶张量空间;
+
+:m阶张量空间中的元素称为m阶张量;
+
+split
+ :张量的加减法定义（同阶）
+ A，B属于Pm，A + - B = ;
+ split again
+ :张量的减法定义（同阶）;
+ split again
+  :张量的乘法定义（数乘）;
+ end split
+
+ :张量函数;
+ :张量分析;
+stop
+@enduml
